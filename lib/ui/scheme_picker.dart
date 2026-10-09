@@ -25,7 +25,7 @@ class SchemePreview extends StatelessWidget {
           TextSpan(
             style: const TextStyle(fontFamily: 'SourceCodePro', fontSize: 12),
             children: [
-              t('nero', c[2]),
+              t('admin', c[2]),
               t('@', scheme.foreground),
               t('server', c[4]),
               t(':', scheme.foreground),

@@ -1,4 +1,4 @@
-package com.nero.nabby
+package com.blackringsecurity.nabby
 
 import android.app.Notification
 import android.app.NotificationChannel

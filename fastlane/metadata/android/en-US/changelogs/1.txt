@@ -1,0 +1,1 @@
+First release: SSH terminal with tabs, SFTP file manager, key manager, jump hosts, port forwarding and 190+ color schemes.

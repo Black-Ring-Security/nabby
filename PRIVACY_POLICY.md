@@ -46,4 +46,7 @@ The app is a technical tool for system administrators and is not directed at chi
 
 ## Contact
 
-Black Ring Security — [CONTACT_EMAIL]
+Black Ring Security
+
+- Questions and bugs: https://github.com/Black-Ring-Security/nabby/issues
+- Security issues (private): https://github.com/Black-Ring-Security/nabby/security/advisories/new

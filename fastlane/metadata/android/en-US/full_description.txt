@@ -1,11 +1,3 @@
-# Google Play listing (English)
-
-**App name** (30 max): Nabby - SSH & SFTP Client
-
-**Short description** (80 max):
-Fast SSH terminal & SFTP file manager with keys, tunnels and 190+ themes.
-
-**Full description**:
 Nabby is a modern SSH and SFTP client for Android, inspired by the Tabby desktop terminal.
 
 TERMINAL
@@ -42,6 +34,3 @@ ORGANIZE
 Free and open source. No ads, no tracking, no accounts.
 
 Edit BY Black Ring Security
-
-**Category**: Tools
-**Tags**: SSH, Terminal, SFTP

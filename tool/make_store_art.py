@@ -1,4 +1,7 @@
-"""Renders the Play Store icon (512x512) and feature graphic (1024x500)."""
+"""Renders the Play Store icon (512x512) and feature graphic (1024x500).
+
+Usage: python3 tool/make_store_art.py fastlane/metadata/android/en-US/images assets/fonts/SourceCodePro.ttf
+"""
 import sys
 from PIL import Image, ImageDraw, ImageFont
 
@@ -14,7 +17,7 @@ def mark(d, x0, y0, scale):
 s = 4
 icon = Image.new("RGB", (512 * s, 512 * s), BG)
 mark(ImageDraw.Draw(icon), 0, 0, 512 * s / 72)
-icon.resize((512, 512), Image.LANCZOS).save(f"{out}/icon-512.png")
+icon.resize((512, 512), Image.LANCZOS).save(f"{out}/icon.png")
 
 # Feature graphic
 W, H = 1024 * s, 500 * s
@@ -30,5 +33,5 @@ d.text((400 * s, 120 * s), "Nabby", font=title, fill=FG)
 d.text((405 * s, 270 * s), "SSH & SFTP client", font=sub, fill=ACCENT)
 d.text((405 * s, 320 * s), "Terminal · Files · Keys · Tunnels", font=small, fill=MUTED)
 d.text((405 * s, 400 * s), "Edit BY Black Ring Security", font=small, fill=MUTED)
-fg.resize((1024, 500), Image.LANCZOS).save(f"{out}/feature-graphic-1024x500.png")
+fg.resize((1024, 500), Image.LANCZOS).save(f"{out}/featureGraphic.png")
 print("ok")

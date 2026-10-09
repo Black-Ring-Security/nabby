@@ -1,4 +1,4 @@
-package com.nero.nabby
+package com.blackringsecurity.nabby
 
 import android.Manifest
 import android.app.NotificationChannel
@@ -13,7 +13,7 @@ import io.flutter.plugin.common.MethodChannel
 
 class MainActivity : FlutterActivity() {
     companion object {
-        const val ACTION_DISCONNECT_ALL = "com.nero.nabby.DISCONNECT_ALL"
+        const val ACTION_DISCONNECT_ALL = "com.blackringsecurity.nabby.DISCONNECT_ALL"
         const val ALERT_CHANNEL_ID = "ssh_alerts"
     }
 
